@@ -1,8 +1,11 @@
 /********** MAIN SECTION **********/
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: sans-serif;
 	font-size: 18px;
-	
 	margin: 0px auto;
     padding: 0px;
 	background-color: #1f1f1f; 
@@ -10,6 +13,10 @@ body {
 
 }
 
+.check {
+	text-decoration: none;
+	color: #FF8413;
+}
 .Photo {
     width: 70%;
     margin: auto;
@@ -34,7 +41,7 @@ body {
 }
 
 a:hover:not(.more) {
-    background-color: #skyblue;
+    background-color: skyblue;
     color: white;
 }
 
@@ -105,20 +112,13 @@ p {
     padding-bottom: 2vh;
 }
 
-footer {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
 
-    footer {
-        margin-top: 100px;
-        text-align: center;
-        font-size: 15px;
-        font-weight: bold;
-		color: orange;
-    }
+footer {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: orange;
 }
 
 /********** MENU SECTION **********/
@@ -162,6 +162,8 @@ li a:hover:not(.active) {
 	padding:1px 16px;
 	height:10px;
 }
+
+
 
 
 
