@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/********** GLOBAL SECTION **********/
+
+html, body {
+    font-family: "Montserrat", Ubuntu, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+	scroll-behavior: smooth;
+
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #1f1f1f;
+    color: rgb(218, 218, 218);
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /*background-color: #161616;*/
+}
+
+img {
+	float: left;
+	margin-right: 5vh;
+	margin-bottom: 5vh;
+}
+
+.risen {
+	height: 100vh;
+	padding-left: 5vh;
+	padding-top: 10vh;
+}
+
+.ds3 {
+	height: 100vh;
+	padding-left: 5vh;
+	padding-top: 10vh;
+}
+
+.gtaV {
+	height: 100vh;
+	padding-left: 5vh;
+	padding-top: 10vh;
+}
+
+/********** NAV SECTION **********/
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+nav ul, li{
+	display: flex;
+	padding: 4px 20px;
+	text-align: center;
+	justify-content: center;
+	font-size: 32px;
+}
+
+nav li, a {
+	display: block;
+	padding: 4px 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: rgb(68, 68, 68);
+}
+

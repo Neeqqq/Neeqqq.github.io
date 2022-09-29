@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/********** GLOBAL SECTION **********/
+
+html, body{
+    font-family: "Montserrat", Ubuntu, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+	scroll-behavior: smooth;
+
+    margin: 0px auto;
+    padding: 0px;
+    color: rgb(218, 218, 218);
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /*background-color: #161616;*/
+}
+
+.text2left{
+	background-color: #1f1f1f;
+	color: #fff;
+	padding-left: 10vh;
+	padding-right: 70vh;
+	padding-top: 15vh;
+	height: 100vh;
+}
+
+.Fline{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.color{
+	color: skyblue;
+}
+h1{
+	font-size: 52px;
+}
+
+p{
+	font-size: 20px;
+}
+
+/********** HEADER SECTION **********/
+
+header h1{
+	z-index: 0;
+	padding-top: 35vh;
+	text-align: center;
+	font-size: 150px;
+	font-weight: 600;
+}
+
+header h1:hover{
+	color: skyblue;
+	display: block;
+}
+
+header p{
+	padding-bottom: 40vh;
+	text-align: center;
+	font-size: 50px;
+	z-index: 0;
+}
+
+header p:hover{
+	color: skyblue;
+}
+
+/********** VIDEO SECTION **********/
+
+.video {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	z-index: -1;
+}
+
+/********** NAV SECTION **********/
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+nav ul, li{
+	display: flex;
+	padding: 4px 20px;
+	text-align: center;
+	justify-content: center;
+	font-size: 32px;
+}
+
+nav li, a {
+	display: block;
+	padding: 4px 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: rgb(68, 68, 68);
+}
